@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - ./src:/usr/src
+    command: ["/bin/echo", "use `docker-compose run --rm app bash` to run"]
