@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
     client c;
     
     std::string hostname = "stream.binance.com"; // asldkfjasldkfj
-    std::string uri = "wss://stream.binance.com:9443/ws/btcusdt@dpth";
+    std::string uri = "wss://stream.binance.com:9443/ws/btcusdt@depth";
     std::string request;
 
 
